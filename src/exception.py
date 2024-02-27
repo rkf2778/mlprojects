@@ -1,6 +1,5 @@
 import sys
-import logging
-import traceback
+from src.logger import logging
 
 # Configure logging to display INFO level messages
 logging.basicConfig(level=logging.INFO)
